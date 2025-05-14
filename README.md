@@ -1,4 +1,4 @@
-# LTSB N mixture model
+# LTSB N-mixture model
 R Code for "Yajima G. and Nakashima Y. (2025) 
 A hierarchical Bayesian approach for estimating the number of groups and group sizes in group-living animals using passive detectors. 
 Environmental and Ecological Statistics XXX(X):eXXX. https://doi.org/XXXXX
