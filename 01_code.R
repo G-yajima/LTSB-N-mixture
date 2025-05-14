@@ -116,8 +116,9 @@ Model <- nimbleCode(
 # - S   : The total sampling occasions
 # - Robs: The number of detectors (Y[i]>0)
 # - St  : The index vector of the detector i corresponding to the n_th observation (see NIMBLE code)
-setwd("../../project/ANGST/")
-load("case_study.Rdata")
+
+# setwd("your directory")
+load("02_case_study.Rdata")
 
 nsmp <- sum(L) # The number of passes in all detectors
 Cmax <- c()    # The maximum observation group size for each detector (this vector is used to determine the initial value of MCMC. See below)
